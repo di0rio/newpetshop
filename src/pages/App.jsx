@@ -1,8 +1,13 @@
+import Nav from "../components/nav/nav"
 import "./App.css"
 
 const App = () => {
   return (
-    <div>ola</div>
+    <div className="head">
+      <div>
+        <Nav />
+      </div>
+    </div>
   )
 }
 
