@@ -32,6 +32,7 @@
 
 .links a {
   text-decoration: none;
+  color: #193A6A;
 }
 
 .petsImage {
@@ -39,9 +40,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
   margin-top: 10em;
 }
 
 .socialLinks{
-  width: 32px;
+  display: flex;
+  gap: 0.5em;
+  margin-left: 300px;
+  color: #193A6A;
+  width: 12em;
 }
+
