@@ -9,8 +9,10 @@
   text-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
   font-style: normal;
   font-weight: 700;
-  margin-top: 1.6em;
+  font-size: 30px;
+  margin-top: 0.4em;
   padding: 0 1em;
+  white-space: nowrap;
 }
 
 .logo {
@@ -32,7 +34,8 @@
 
 .links a {
   text-decoration: none;
-  color: #193A6A;
+  color: #193a6a;
+  font-size: 22px;
 }
 
 .petsImage {
@@ -44,11 +47,11 @@
   margin-top: 10em;
 }
 
-.socialLinks{
+.socialLinks {
+  margin-top: -2.6em;
+  font-size: 30px;
   display: flex;
   gap: 0.5em;
-  margin-left: 300px;
-  color: #193A6A;
-  width: 12em;
+  margin-left: 100%;
+  color: #193a6a;
 }
-
