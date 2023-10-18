@@ -15,3 +15,7 @@
   color: white;
 }
 
+.btnSeeMore:hover {
+  color: #082630;
+  animation-duration: 0.7s;
+}
