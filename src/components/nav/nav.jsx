@@ -6,6 +6,9 @@ import logoPet from "../../assets/arcticons_pet-first-aid.svg";
 const Nav = () => {
   return (
     <div className={style.navBar}>
+      <div className={style.head}>
+        
+      </div>
       <div className={style.logo}>
         <img src={logoPet} alt="" />
       </div>

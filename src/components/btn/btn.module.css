@@ -1,0 +1,17 @@
+.btnSeeMore {
+  width: 130px;
+  height: 30px;
+  background-color: #124c5f;
+  border-radius: 5px;
+  text-align: center;
+  align-self: center;
+  padding-top: 10px;
+  margin-left: 50em;
+  border: 0;
+
+  text-align: center;
+  align-items: center;
+  padding: 0em;
+  color: white;
+}
+

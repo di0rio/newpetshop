@@ -1,0 +1,24 @@
+.footer{
+    height: 250px;
+    padding: 0;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(59, 59, 202);
+    margin-top: 75px;
+}
+
+.footer p{
+color: white;
+padding: 1.5em;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    color: black;
+    animation-duration: 0.7s;
+}

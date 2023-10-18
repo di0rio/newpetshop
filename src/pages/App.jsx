@@ -1,3 +1,5 @@
+import Btn from "../components/btn/btn"
+import Footer from "../components/footer/footer"
 import Nav from "../components/nav/nav"
 import SaleRation from "../components/saleRation/saleRation"
 
@@ -11,6 +13,10 @@ const App = () => {
       </div>
       <div>
         <SaleRation />
+        <Btn />
+      </div>
+      <div>
+        <Footer />
       </div>
     </div>
   )

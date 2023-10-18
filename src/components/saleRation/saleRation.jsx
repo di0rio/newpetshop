@@ -14,24 +14,24 @@ const SaleRation = () => {
         <p>25% DE DESCONTO EM TODOS OS PRODUTOS</p>
       </div>
       <div className={style.ration}>
-        <img src={racao1} alt="" />
-        <img src={racao2} alt="" />
-        <img src={racao3} alt="" />
+        <img src={racao1} alt="ração de cachorro adulto da marca 'drools', com embalagem preta e vermelha." />
+        <p>
+          Ração de Frango e ovo 3 kg Ração seca para cães adulto
+        </p>
+
+        <img src={racao2} alt="ração de cachorro adulto da marca 'canine creek', com embalagem branca e azul claro transparente. 4kg" />
+        <p>
+          Ração Sabor Frango e carne para cães 4 kg ressecada para cães adulto
+        </p>
+
+        <img src={racao3} alt="biscoitos para cachorros da marca pedigree, com embalagem amarela. 500g" />
+        <p>
+          Biscoito Sabor Carne para Cães 500g Biscoito para Cães Adultos
+        </p>
       </div>
-      <div className={style.decription}>
-        <h5>
-          Baba | 3KG Galinha adulta e ovo Ovo, Galinha 3 kg Alimento seco para
-          cães adultos
-        </h5>
-        <h5>
-          Riacho Canino 4 KG Galinha adulta e ovo Ovo, Galinha 3 kg Alimento
-          seco para cães adultos
-        </h5>
-        <h5>
-          Biscoitos Biscork Galinha adulta e ovo Ovo, Galinha Seca Alimento para
-          cão adulto
-        </h5>
-      </div>
+      {/* <div className={style.decription}>
+
+      </div> */}
     </div>
   );
 };
