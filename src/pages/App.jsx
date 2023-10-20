@@ -1,25 +1,29 @@
-import Btn from "../components/btn/btn"
-import Footer from "../components/footer/footer"
-import Nav from "../components/nav/nav"
-import SaleRation from "../components/saleRation/saleRation"
+import Balls from "../components/balls/balls";
+import Btn from "../components/btn/btn";
+import BtnBuyNow from "../components/btnBuyNow/btnBuyNow";
+import Footer from "../components/footer/footer";
+import Nav from "../components/nav/nav";
+import SaleRation from "../components/saleRation/saleRation";
 
-import "./App.css"
+import "./App.css";
 
 const App = () => {
   return (
-    <div >
+    <div>
       <div>
         <Nav />
       </div>
-      <div>
+      <div className="container">
         <SaleRation />
         <Btn />
+        <Balls />
+
       </div>
       <div>
         <Footer />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

@@ -5,6 +5,11 @@
   font-family: "Raleway", sans-serif;
 }
 
+.container{
+  display: flex;
+  /* margin-top: 3em; */
+}
+
 
 /* @media screen and (max-width: 600px) {
     .head {

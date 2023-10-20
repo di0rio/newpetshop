@@ -14,13 +14,11 @@
 .textTwo p {
   font-size: 40px;
   font-weight: 700;
-  
 
   color: #000;
 
   white-space: nowrap;
-  padding:  1.2em;
-
+  padding: 1.2em;
 }
 
 .baseRation {
@@ -28,15 +26,24 @@
 
 .ration {
   display: flex;
+  /* flex-direction: column; */
   justify-content: center;
-  margin-left: 32em;
-  gap: 2em;
-  padding: 1.5em;
-  width: 300px;
-  height: 350px;
+  align-items: center;
+
+  margin-left: 3em;
+  gap: 3.5em;
+  padding: 1.5em 1.3em; 
 }
 
-.ration p{
-  display: flex;
-  margin-top: auto;
+.ration div{
+  width: 300px;
 }
+
+.ration img{
+  margin-bottom: 1em;
+  width: 300px;
+  height: 350px;
+  /* margin-top: -1em; */
+  /* object-fit: contain; */
+}
+

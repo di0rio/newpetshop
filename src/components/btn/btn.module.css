@@ -1,6 +1,7 @@
 .btnSeeMore {
-  width: 130px;
-  height: 30px;
+  width: 12.63025rem;
+  height: 3.67006rem;
+ 
   background-color: #124c5f;
   border-radius: 5px;
   text-align: center;
@@ -14,9 +15,15 @@
   padding: 0em;
   color: white;
   cursor: pointer;
+  margin-top: 9em;
+  margin-left: 3.2em;
+  font-size: medium;
+  animation: 0.5s;
+  transition: 0.5s;
+
 }
 
 .btnSeeMore:hover {
-  color: #082630;
-  animation-duration: 0.7s;
+  background-color: #082630;
+  animation: 0.7s;
 }
