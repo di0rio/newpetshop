@@ -43,6 +43,7 @@
   margin-bottom: 1em;
   width: 300px;
   height: 350px;
+  /* object-fit: cover; */
   /* margin-top: -1em; */
   /* object-fit: contain; */
 }
