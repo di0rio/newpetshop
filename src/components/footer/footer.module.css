@@ -20,5 +20,6 @@ padding: 1.5em;
 
 .footer a:hover{
     color: black;
-    animation-duration: 0.7s;
+    animation: 0.5s;
+    transition: 0.5s;
 }
