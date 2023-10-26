@@ -47,6 +47,12 @@
   font-size: 22px;
 }
 
+.links a:hover{
+  color: rgb(255, 31, 117);
+  animation: 0.5s;
+  transition: 0.5s;
+}
+
 .petsImage {
   display: flex;
   flex-direction: column;
