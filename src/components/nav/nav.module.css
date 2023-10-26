@@ -64,11 +64,17 @@
 
 .socialLinks {
   margin-top: -2.6em;
-  font-size: 30px;
+  font-size: 2em;
   display: flex;
   gap: 0.5em;
   margin-left: 87%;
   color: #193a6a;
   cursor: pointer;
 
+}
+
+.socialLinks:hover a{
+  color: black;
+  animation: 0.5s;
+  transition: 0.5s;
 }
