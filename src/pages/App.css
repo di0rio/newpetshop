@@ -5,6 +5,11 @@
   font-family: "Raleway", sans-serif;
 }
 
+body{
+  /* overflow-y: hidden;   */
+  overflow-x: hidden;  
+}
+
 .container{
   display: flex;
   /* margin-top: 3em; */
