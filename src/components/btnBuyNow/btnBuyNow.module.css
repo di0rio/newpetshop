@@ -16,6 +16,10 @@
   transition: 0.5s;
 }
 
+.btnBuy button {
+  cursor: pointer;
+}
+
 .btnBuy:hover {
   background-color: grey;
 }
@@ -25,5 +29,4 @@
   flex-direction: row;
   gap: 2em;
   padding: 1em;
-  cursor: pointer;
 }
